@@ -30,9 +30,9 @@ public class RecognitionClass {
         configuration
         .setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
         configuration
-        .setDictionaryPath("resource:/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict");
+        .setDictionaryPath("resource:/edu/cmu/sphinx/models/en-us/3880.dic");
         configuration
-        .setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm");
+        .setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/3880.lm");
         
         //LiveSpeechRecognizer recognizer = new LiveSpeechRecognizer(configuration);
         LiveSpeechRecognizer recognizer = new LiveSpeechRecognizer(configuration);
